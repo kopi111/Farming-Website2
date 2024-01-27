@@ -645,7 +645,7 @@
 .team-card__image::before {
   content: "";
   width: 100%;
-  height: 100%;
+  height: 260px;
   position: absolute;
   top: 0;
   left: 0;
@@ -660,6 +660,12 @@
 
 .team-card__image > img {
   width: 100%;
+  height: 260px;
+}
+
+.info_ {
+  text-align: justify;
+  font-size: x-small;
 }
 
 .team-card:hover .team-card__image::before {
@@ -6315,6 +6321,7 @@ h6 {
 
 .service-two__card-image > img {
   width: 100%;
+  height: 240px;
 }
 
 .service-two__card-content {
@@ -6344,6 +6351,7 @@ h6 {
   color: var(--thm-black);
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
   margin: 0;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -8429,5 +8437,28 @@ h6 {
     position: relative;
     left: 30px;
   }
+}
+
+.card {
+  position: relative;
+  width: 85%;
+  height: 100px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.card:hover,
+.card.active {
+  position: relative;
+  height: 200px; /* Adjust the expanded height as needed */
+  overflow: auto;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: justify;
+  font-size: x-small;
 }
 /*# sourceMappingURL=main.css.map */
