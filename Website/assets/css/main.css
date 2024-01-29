@@ -6143,7 +6143,7 @@ h6 {
 
 .service-one__box-content h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 600;
   color: #255946;
   text-align: center;
@@ -6151,7 +6151,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .service-one__box-content h3 {
-    font-size: 22px;
+    font-size: 10px;
   }
 }
 
