@@ -4882,12 +4882,12 @@ h6 {
 .contact-infos {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 @media (min-width: 1200px) {
   .contact-infos {
-    padding-top: 120px;
+    padding-top: 50px;
   }
 }
 
@@ -4897,10 +4897,11 @@ h6 {
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
   margin-bottom: -30px;
-  position: relative;
+  position: top;
   z-index: 10;
   padding: 20px;
   border-radius: 5px;
+  height: fit-content;
 }
 
 @media (min-width: 768px) {
