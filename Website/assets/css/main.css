@@ -645,7 +645,7 @@
 .team-card__image::before {
   content: "";
   width: 100%;
-  height: 260px;
+  height: 290px;
   position: absolute;
   top: 0;
   left: 0;
@@ -660,7 +660,7 @@
 
 .team-card__image > img {
   width: 100%;
-  height: 260px;
+  height: 290px;
 }
 
 .info_ {
